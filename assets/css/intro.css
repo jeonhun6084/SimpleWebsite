@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-size: 1rem;
+    line-height: 1.25;
+    background-color: #18222d!important;
+}
+
+.container {
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container svg {
+    max-width: 45rem;
+    width: 100%;
+    height: auto;
+    fill: none;
+    stroke: white;
+    stroke-width: 4;
+}
+
+.container svg tspan>tspan {
+    stroke-dasharray: 1500;
+    stroke-dashoffset: -1500;
+}
+
+.container svg tspan>tspan:nth-of-type(1) {
+    -webkit-animation: draw 300ms 150ms forwards;
+    animation: draw 300ms 150ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(2) {
+    -webkit-animation: draw 300ms 300ms forwards;
+    animation: draw 300ms 300ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(3) {
+    -webkit-animation: draw 300ms 450ms forwards;
+    animation: draw 300ms 450ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(4) {
+    -webkit-animation: draw 300ms 600ms forwards;
+    animation: draw 300ms 600ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(5) {
+    -webkit-animation: draw 300ms 750ms forwards;
+    animation: draw 300ms 750ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(6) {
+    -webkit-animation: draw 300ms 900ms forwards;
+    animation: draw 300ms 900ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(7) {
+    -webkit-animation: draw 300ms 1050ms forwards;
+    animation: draw 300ms 1050ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(8) {
+    -webkit-animation: draw 300ms 1200ms forwards;
+    animation: draw 300ms 1200ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(9) {
+    -webkit-animation: draw 300ms 1350ms forwards;
+    animation: draw 300ms 1350ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(10) {
+    -webkit-animation: draw 300ms 1500ms forwards;
+    animation: draw 300ms 1500ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(11) {
+    -webkit-animation: draw 300ms 1650ms forwards;
+    animation: draw 300ms 1650ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(12) {
+    -webkit-animation: draw 300ms 1800ms forwards;
+    animation: draw 300ms 1800ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(13) {
+    -webkit-animation: draw 300ms 1950ms forwards;
+    animation: draw 300ms 1950ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(14) {
+    -webkit-animation: draw 300ms 2100ms forwards;
+    animation: draw 300ms 2100ms forwards;
+}
+
+.container svg tspan>tspan:nth-of-type(15) {
+    -webkit-animation: draw 300ms 2250ms forwards;
+    animation: draw 300ms 2250ms forwards;
+}
+
+@-webkit-keyframes draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.arrow {
+    position: absolute;
+    top : 90%;
+    left : 90%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-90deg);
+    cursor: pointer;
+  }
+  
+  .arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  
+  .arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+  }
+  
+  .arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+  }
+  
+  @keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+  }
