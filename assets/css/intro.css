@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     font-size: 1rem;
     line-height: 1.25;
-    background-color: #18222d!important;
+    background-color: #18222d !important;
 }
 
 .container {
@@ -119,14 +119,14 @@ body {
 
 .arrow {
     position: absolute;
-    top : 90%;
-    left : 90%;
+    top: 90%;
+    left: 90%;
     transform: translate(-50%, -50%);
     transform: rotate(-90deg);
     cursor: pointer;
-  }
-  
-  .arrow span {
+}
+
+.arrow span {
     display: block;
     width: 1.5vw;
     height: 1.5vw;
@@ -135,26 +135,28 @@ body {
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
-  }
-  
-  .arrow span:nth-child(2) {
+}
+
+.arrow span:nth-child(2) {
     animation-delay: -0.2s;
-  }
-  
-  .arrow span:nth-child(3) {
+}
+
+.arrow span:nth-child(3) {
     animation-delay: -0.4s;
-  }
-  
-  @keyframes animate {
+}
+
+@keyframes animate {
     0% {
         opacity: 0;
         transform: rotate(45deg) translate(-20px, -20px);
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         transform: rotate(45deg) translate(20px, 20px);
     }
-  }
+}

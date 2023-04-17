@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
   font-size: 1rem;
   line-height: 1.25;
-  background-color: #18222d!important;
+  background-color: #18222d !important;
 }
 
 #banner {
@@ -22,6 +22,7 @@ body {
   background: #262626;
   filter: drop-shadow(2px 2px 5px);
 }
+
 @media (orientation: landscape) {
   #banner {
     --l: calc(100vh/(var(--n-rows) + 3));
@@ -45,6 +46,7 @@ img {
   filter: brightness(calc(.6*(1 + var(--hl))));
   transition: .7s;
 }
+
 img:hover {
   --hl: 1;
 }
