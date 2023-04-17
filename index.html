@@ -3,13 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/intro.css" title="title1">
     <script src="./assets/js/jquery3.6.4.min.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
     <script src="./assets/js/intro.js"></script>
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/intro.css" title="title1">
+
     <title>Intro</title>
 </head>
 
 <body>
+    <!-- https://codepen.io/suez/pen/wMMgXp -->
+    <!-- intro -->
     <div id="intro" class="container">
         <svg viewBox="0 0 1418 116" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -41,6 +47,8 @@
             <span class="nextPage"></span>
         </div>
     </div>
+
+    <!-- banner -->
     <div id="banner" style="--n-rows: 3; --n-cols: 6">
         <style>.hex-cell:nth-of-type(5n + 1) { grid-column-start: 2 }</style>
         <div class="hex-cell"><img src="assets/img/CoChampionsKorea_Logo.jpg"/></div>
@@ -50,5 +58,82 @@
         <div class="hex-cell"><img src="assets/img/MKSI_Logo.jpg"/></div>
         <div class="hex-cell"><img src="assets/img/YSU_Logo.webp"/></div>
         <div class="hex-cell"><img src="assets/img/yunhee1222.jpg"/></div>
+    </div>
+
+    <!-- gallery -->
+    <div id="gallery">
+        <header>
+            <a href="#" id="btn_back" class="logo left">
+                <svg width="40px" height="50px" viewBox="0 0 60 80" xml:space="preserve">
+                <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+                45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                </svg>  
+            </a>
+            <nav class="site-nav">
+            <ul>
+                <li><a href="#">cwu</a></li>
+                <li><a href="#">후..</a></li>
+                <li><a href="#">Our Portfolio</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            </nav>
+        </header>
+        <article class='gallery'>
+        <a class='gallery-link' href='./assets/img/aa.gif'>
+            <figure class='gallery-image'>
+            <img height='1600' src='./assets/img/aa.gif' width='1600'>
+            <figcaption>1111</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1600/1000?image=1014'>
+            <figure class='gallery-image'>
+            <img height='1000' src='https://unsplash.it/1600/1000?image=1014' width='1600'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1600/1600?image=267'>
+            <figure class='gallery-image'>
+            <img height='1600' src='https://unsplash.it/1600/1600?image=267' width='1600'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1000/1600?image=266'>
+            <figure class='gallery-image'>
+            <img height='1600' src='https://unsplash.it/1000/1600?image=266' width='1000'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1400/1600?image=634'>
+            <figure class='gallery-image'>
+            <img height='1600' src='https://unsplash.it/1400/1600?image=634' width='1400'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1400/1600?image=923'>
+            <figure class='gallery-image'>
+            <img height='1600' src='https://unsplash.it/1400/1600?image=923' width='1400'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1400/1400?image=682'>
+            <figure class='gallery-image'>
+            <img height='1400' src='https://unsplash.it/1400/1400?image=682' width='1400'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1600/1600?image=173'>
+            <figure class='gallery-image'>
+            <img height='1600' src='https://unsplash.it/1600/1600?image=173' width='1600'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        <a class='gallery-link' href='https://unsplash.it/1200/1200?image=943'>
+            <figure class='gallery-image'>
+            <img height='1200' src='https://unsplash.it/1200/1200?image=943' width='1200'>
+            <figcaption>Photo caption</figcaption>
+            </figure>
+        </a>
+        </article>
     </div>
 </body>
