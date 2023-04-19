@@ -20,12 +20,6 @@ $( document ).ready(function() {
                     $(".gallery").append("<a class='gallery-link' href='./assets/img/aa.gif'><figure class='gallery-image'><img height='1600' src='./assets/img/aa.gif' width='1600'><figcaption>1111</figcaption></figure></a>");
                     $("#gallery").fadeIn(600);
                     active_gallery();
-                    // <a class='gallery-link' href='./assets/img/aa.gif'>
-                    //     <figure class='gallery-image'>
-                    //         <img height='1600' src='./assets/img/aa.gif' width='1600'>
-                    //         <figcaption>1111</figcaption>
-                    //     </figure>
-                    // </a>
                 });
                 break;
             case 2:
@@ -135,17 +129,4 @@ $( document ).ready(function() {
         });
     };
 
-    // let img_list = ["./assets/img/aa.gif"]
-    // let img_text = ["1111"]
-    // String.prototype.format = function() {
-    //   var formatted = this;
-    //   for( var arg in arguments ) {
-    //       formatted = formatted.replace("{" + arg + "}", arguments[arg]);
-    //   }
-    //   return formatted;
-    // };
-    // $.each(img_list, function(index, item){
-    //   $(".gallery").text("<a class='gallery-link' href='./assets/img/aa.gif'><figure class='gallery-image'><img height='1600' src='./assets/img/aa.gif' width='1600'><figcaption>1111</figcaption></figure></a>").format;
-    // })
-    
 });
